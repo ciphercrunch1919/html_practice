@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+p {
+    margin: .5em 0 0.5em 0;
+}
+
+header {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+nav a:visited, 
+nav a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav > ul {
+    display: inline;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
+}
+
+.planning {
+    padding: 1em;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: block;
+    background-image: url("background-image.png");
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 85%;
+}
+
+footer {
+    padding: 15px;
+}
+
+aside,
+article {
+    padding: 2em;
+}
+
+aside {
+    text-align: center;
+}
+
+article {
+    width: 75%;
+}
+
+.columns {
+    display: flex;
+}
+
+h1 {
+    color: #fcc;
+    font-size: 3em;
+    margin-top: .5em;
+}
+
+h2 {
+    color: #fcc;
+    font-size:2em;
+    margin-top: .5em;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.sub-title {
+    background-color: rgba(0, 0, 139, 0.527);
+    font-size: 1.5em;
+    color: white;
+    padding: 10px;
+}
+.sub-title2 {
+    background-color: rgba(0, 0, 139, 0.527);
+    font-size: 1em;
+    color:gainsboro;
+    padding: 10px;
+}
+
+p {
+    color: white;
+}
+
+.game-design {
+    background-color: rgba(137, 43, 226, 0.637);
+    font-size: 1.5em;
+    color: red;
+    padding: 10px;
+}
+
+.game-img {
+    max-width: 200px;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        display: flex;
+    }
+
+    aside {
+        margin-left: 2%;
+    }
+
+    .columns-desktop {
+        display: flex;
+    }
+}
+
+/* Games */
+
+.game {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: solid 1px #ccc;
+}
+
+.game .title {
+    font-weight: bold;
+    color: black;
+}
+
+.game .columns {
+    width: 100%
+}
+
+.game .platform {
+    text-align: right; 
+    color: red;
+}
+
+.game .details {
+    color: gray;
+}
+
+.game .columns div {
+    width: 50%;
+}
+
+.game button{
+    background-color: blueviolet;
+    padding: 10px;
+    border: solid 1px blueviolet;
+    border-radius: 3px;
+    color: #fcc;
+}
