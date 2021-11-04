@@ -91,6 +91,10 @@ h2 {
     margin-top: .5em;
 }
 
+h3 {
+    text-decoration: underline;
+}
+
 .banner {
     max-width: 100%;
 }
