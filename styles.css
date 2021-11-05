@@ -43,6 +43,10 @@ nav > ul > li {
     margin: 0 5px 0 5px;
 }
 
+li{
+    color:whitesmoke;
+}
+
 .planning {
     padding: 1em;
     list-style: none;
@@ -92,6 +96,7 @@ h2 {
 }
 
 h3 {
+    color: white;
     text-decoration: underline;
 }
 
