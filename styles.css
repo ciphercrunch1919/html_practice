@@ -66,13 +66,14 @@ footer {
     padding: 15px;
 }
 
-aside,
 article {
-    padding: 2em;
+    padding: 2em 2em 2em 24em;
 }
 
 aside {
+    padding: 1em 0 1em 1em;
     text-align: center;
+    position: fixed;
 }
 
 article {
